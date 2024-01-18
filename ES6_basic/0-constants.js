@@ -1,5 +1,5 @@
 export function taskFirst() {
-    const task = 'I prefer const when I can.'; // can never be modified
+    const task = 'I prefer const when I can.';
     return task;
   }
   
@@ -8,7 +8,7 @@ export function taskFirst() {
   }
   
   export function taskNext() {
-    let combination = 'But sometimes let'; // can be modified outside this block
+    let combination = 'But sometimes let';
     combination += getLast();
     return combination;
   }
