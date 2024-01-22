@@ -17,7 +17,7 @@ export default class HolbertonCourse {
       throw TypeError('Length must be a number');
     }
     this._length = Length;
- }
+  }
 
   set students(Students) {
     if (Array.isArray(Students)
