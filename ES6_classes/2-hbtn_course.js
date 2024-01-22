@@ -17,12 +17,12 @@ export default class HolbertonCourse {
       throw TypeError('Length must be a number');
     }
     this._length = Length;
-   }
+ }
 
   set students(Students) {
     if (Array.isArray(Students)
             && Students.every((student) => (typeof student === 'string') === true)) {
-    this._students = Students;
+      this._students = Students;
     } else {
       throw TypeError('Students must be an array of strings');
     }
