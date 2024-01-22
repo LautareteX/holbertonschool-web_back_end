@@ -12,7 +12,7 @@ export default class Currency {
     if (typeof Code !== 'string') {
       throw TypeError('Code must by a String');
     }
-    this._code = Code
+    this._code = Code;
   }
 
   set name(Name) {
